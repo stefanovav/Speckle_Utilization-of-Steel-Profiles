@@ -22,9 +22,8 @@ Update the COMMIT_FILE_PATH in app.py to the path of the file containing the com
 
 
 COMMIT_FILE_PATH = r"C:\[...]"
+
 Set your Speckle stream ID and host:
-
-
 HOST = "speckle.xyz"
 STREAM_ID = "32ea4a3d73"
 
