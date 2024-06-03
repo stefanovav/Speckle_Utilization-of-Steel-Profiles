@@ -12,6 +12,7 @@ The steel structure is built using Grasshopper with the Karamba3D plugin.
 - Embeds a Speckle viewer for visual inspection.
 
 **Configuration**
+
 Set your Speckle token as an environment variable:
 
 
@@ -40,6 +41,7 @@ Click the "Send Data to Speckle" button to update and send data.
 View the fetched data, transformed data, and the embedded Speckle viewer.
 
 **Main Components**
+
 Speckle Server Configuration: Host, stream ID, and commit file path.
 Authentication: Uses Speckle token for authentication.
 Data Fetching: Retrieves data from Speckle.
@@ -48,6 +50,7 @@ Data Sending: Sends updated data back to Speckle.
 Data Visualization: Displays data in a table and embeds the Speckle viewer.
 
 **Functions**
+
 get_latest_commit_id(file_path): Retrieves the latest commit ID from a file.
 
 send_data_to_speckle(height, width, length, stream_id, speckle_token, res): Updates and sends data to Speckle.
@@ -67,4 +70,5 @@ extract_combined_data(members_list): Extracts key, utilization, and cross-sectio
 display_combined_table(combined_data): Displays data in a Plotly table.
 
 **Running the Application**
+
 main(): Orchestrates the workflow of fetching data, updating it, sending it back to Speckle, and displaying results.
