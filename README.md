@@ -1,6 +1,7 @@
 # Speckle Utilization of Steel Profiles
 
-This repository contains the code for a Streamlit application that interacts with Speckle to fetch and send data related to the utilization of steel profiles. The application allows users to input dimensions, retrieve data from Speckle, and visualize and update the data.
+This repository contains the code for a Streamlit application that interacts with Speckle to fetch and send data related to the utilization of steel profiles. The application allows users to input dimensions, retrieve data from Speckle, and visualize and update the data. 
+The steel structure is built using Grasshopper with the Karamba3D plugin.
 
 **Features**
 
@@ -18,7 +19,7 @@ export SPECKLE_TOKEN=your-speckle-token
 Update the COMMIT_FILE_PATH in app.py to the path of the file containing the commit ID:
 
 
-COMMIT_FILE_PATH = r"C:\Users\Denitsa\Documents\WebSite\HACKATON\CommitPath.txt"
+COMMIT_FILE_PATH = r"C:\[...]"
 Set your Speckle stream ID and host:
 
 
