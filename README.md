@@ -43,10 +43,15 @@ View the fetched data, transformed data, and the embedded Speckle viewer.
 **Main Components**
 
 Speckle Server Configuration: Host, stream ID, and commit file path.
+
 Authentication: Uses Speckle token for authentication.
+
 Data Fetching: Retrieves data from Speckle.
+
 Data Updating: Updates dimensions and material properties in the retrieved data.
+
 Data Sending: Sends updated data back to Speckle.
+
 Data Visualization: Displays data in a table and embeds the Speckle viewer.
 
 **Functions**
