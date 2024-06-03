@@ -81,3 +81,9 @@ display_combined_table(combined_data): Displays data in a Plotly table.
 **Running the Application**
 
 main(): Orchestrates the workflow of fetching data, updating it, sending it back to Speckle, and displaying results.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE] file for details.
+
