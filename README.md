@@ -1,6 +1,6 @@
 # Speckle Utilization of Steel Profiles
 
-This repository contains the code for a Streamlit application that interacts with Speckle to fetch and send data related to the utilization of steel profiles. The application allows users to input dimensions, retrieve data from Speckle, and visualize and update the data. 
+This repository contains the code for a Streamlit application that interacts with Speckle to fetch and send data related to the utilization of steel profiles. The application allows users to input dimensions, retrieve data about the model from Speckle, and visualize and update the data. 
 The steel structure is built using Grasshopper with the Karamba3D plugin. The key role of the code is to ensure that all parties - Grasshopper, Streamlit and Speckle - are always working with the latest commit. 
 
 **Features**
