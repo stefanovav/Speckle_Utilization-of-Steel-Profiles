@@ -18,8 +18,6 @@ Set your Speckle token as an environment variable:
 export SPECKLE_TOKEN=your-speckle-token
 
 Update the COMMIT_FILE_PATH in app.py to the path of the file containing the commit ID:
-
-
 COMMIT_FILE_PATH = r"C:\[...]"
 
 Set your Speckle stream ID and host:
