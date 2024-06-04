@@ -100,6 +100,20 @@ Description: Displays the combined Key, Utilization, and CrossSection data in a 
 
 main(): Orchestrates the workflow of fetching data, updating it, sending it back to Speckle, and displaying results.
 
+Functionality:
+
+Retrieves the latest commit ID from a file.
+
+Authenticates with Speckle using a provided token.
+
+Allows user input for dimensions and key to set the material.
+
+Sends updated data to Speckle.
+
+Fetches data from Speckle and displays it.
+
+Embeds the Speckle viewer to display the commit.
+
 
 ## License
 
