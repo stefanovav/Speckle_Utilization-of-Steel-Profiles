@@ -1,3 +1,4 @@
+***THIS PROJECT IS WRITTEN WITH AN OLD SPECKLE SDK***
 # Speckle Utilization of Steel Profiles
 
 This repository contains the code for a Streamlit application that interacts with Speckle to fetch and send data related to the utilization of steel profiles. The application allows users to input dimensions, retrieve data about the model from Speckle, and visualize and update the data. 
